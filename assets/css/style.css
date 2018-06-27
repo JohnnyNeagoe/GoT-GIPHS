@@ -1,0 +1,38 @@
+html,body {
+    background: url("../images/background1.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;   
+    -o-background-size: cover;     
+    background-size: cover; 
+    box-sizing: border-box;     
+}
+#banner{
+    background: url("../images/banner.png") center;
+    background-size: contain;     
+    background-repeat: no-repeat;  
+    height:60px;
+    background-color: black;
+}
+
+#mainContainer{
+        background: rgb(250, 220, 220);
+        background: rgba(253, 225, 225, 0.5);
+        float:left;
+        margin-left:4%;
+}
+#buttonsView{
+    background: rgb(250, 220, 220);
+    background: rgba(253, 225, 225, 0.5);
+    margin-top: 1%;
+    margin-left:4%;
+    text-align: center;
+    padding:10px;
+}
+#searchContainer {
+    background: rgb(250, 220, 220);
+    background: rgba(253, 225, 225, 0.7);
+    float:right;
+    padding:25px;
+    border-radius: 0%;
+    margin-right: 4.35%;
+}
