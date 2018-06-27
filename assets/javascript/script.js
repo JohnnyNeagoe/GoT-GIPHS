@@ -14,6 +14,7 @@ function renderButtons() {
     $("#addGif").on("click", function(event) {
         event.preventDefault();
         var searchName = $("#gifInput").val().trim();
+        var wordList =["Jon Snow"]
         topics.push(searchName);
         renderButtons();
     });
@@ -37,7 +38,7 @@ function renderButtons() {
                 resultsImage.attr("src", stillState);
                 resultsImage.attr("data-still", stillState);
                 resultsImage.attr("data-animate", actionState);
-                var state = resultsImage.attr("data-state", "still");
+                resultsImage.attr("data-state", "still");
                 gifDiv.prepend(p);
                 gifDiv.prepend(resultsImage);
                 $("#gifView").prepend(gifDiv);       

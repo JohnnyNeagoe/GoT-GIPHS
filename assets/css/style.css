@@ -12,6 +12,7 @@ html,body {
     background-repeat: no-repeat;  
     height:60px;
     background-color: black;
+    border-bottom: 2px solid rgba(253, 225, 225, 0.5);
 }
 
 #mainContainer{
@@ -35,4 +36,55 @@ html,body {
     padding:25px;
     border-radius: 0%;
     margin-right: 4.35%;
+}
+
+.topic{
+    background: 			#832A0D;
+    color: black;
+    font-family: MedievalSharp, cursive;
+    font-size: 20px;;
+    font: bolder 200;
+    padding: .8% 1.5% .6% 1.5%;
+    margin:1% 2% 2% 1%;
+    border-radius: 5px;
+    box-shadow:1px 1px;;
+    border: 0.05px solid black;
+}
+
+#addGif{
+    background: 			#1B1B1B;
+    color: white;
+    font-family: MedievalSharp, cursive;
+    font-size: 15px;;
+    font: bolder 200;
+    padding: 2% 4% 1% 4%;
+    margin-top:5%;
+    border-radius: 5px;
+    box-shadow:1px 1px;;
+    border: 0.05px solid black;
+    text-align: center;
+}
+
+#gifForm{
+    text-align: center;
+}
+
+#gifView{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-flow: wrap;
+}
+
+.gifHold{
+    margin:10px;
+    align-items: center;
+}
+
+input{
+    border-radius: 3%;
+}
+
+p{
+    text-align: center
 }
